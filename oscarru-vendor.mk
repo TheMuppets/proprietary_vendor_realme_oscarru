@@ -706,9 +706,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscarru/proprietary/odm/firmware/tp/216EA/LIMIT_NF_NT36672C_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/LIMIT_NF_NT36672C_DSJM.img \
     vendor/realme/oscarru/proprietary/odm/firmware/tp/216EA/LIMIT_NF_NT36672C_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/LIMIT_NF_NT36672C_TIANMA.img \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1.bin \
+    vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
+    vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.sensormodule.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.s5kjn1.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sy_imx471.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1.bin \
+    vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1b.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.tuned.imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.imx471.bin \
+    vendor/realme/oscarru/proprietary/odm/lib64/camera/com.qti.tuned.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.s5kjn1.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreview.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/realme/oscarru/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
@@ -1038,6 +1042,8 @@ PRODUCT_PACKAGES += \
     anc.hal \
     android.hardware.biometrics.common-V1-ndk_platform \
     com.qti.sensor.gc02m1 \
+    com.qti.sensor.gc02m1b \
+    com.qti.sensor.s5kjn1 \
     com.qti.sensor.sy_imx471 \
     fingerprint.goodix_G2.default \
     fingerprint.goodix_G3.default \
